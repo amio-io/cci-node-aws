@@ -1,11 +1,11 @@
 FROM circleci/node:8.4.0
 
 # Pip - install
-apt-get install python-pip python-dev build-essential
-pip install --upgrade pip
-pip install --upgrade virtualenv
-pip -V
+RUN apt-get install python-pip python-dev build-essential
+RUN pip install --upgrade pip
+RUN pip install --upgrade virtualenv
+RUN pip -V
 
 # AWS - install
-pip install awscli
-aws --version
+RUN pip install awscli
+RUN aws --version
