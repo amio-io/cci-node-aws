@@ -1,4 +1,4 @@
-FROM circleci/node:8.4.0
+FROM circleci/node:8.9.4-browsers
 
 # Pip - install
 RUN sudo apt-get install python-pip python-dev build-essential
