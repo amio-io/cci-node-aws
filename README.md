@@ -9,4 +9,5 @@ CircleCI Node primary docker with AWS
 
 ## Supported versions of Node
 - `amioio/cci-node-aws:12.14.1`
+- `amioio/cci-node-aws:12.16-browsers`
 
